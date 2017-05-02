@@ -4,12 +4,13 @@
   "description": "",
   "main": "hello-sqlite3.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sqlite3 prueba.sqlite3 < check.sql"
   },
+  "repository": "https://github.com/ULL-ESIT-SYTW-1617/sqlite3-simple-example.git",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sqlite3": "^3.1.8"
+    "sqlite3": "*"
   }
 }

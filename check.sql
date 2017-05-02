@@ -1,0 +1,2 @@
+.schema
+select * from lorem;
